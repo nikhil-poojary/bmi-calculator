@@ -1,0 +1,19 @@
+    .main {
+        height: 400px;
+        width: 650px;
+        margin-top: 40px;
+    }
+
+    #output {
+        float: right;
+        display: inline;
+        margin-top: -140px;
+        padding-right: 45px;
+    }
+
+    #message {
+        float: right;
+        display: inline;
+        margin-top: -50px;
+        padding-right: 45px;
+    }

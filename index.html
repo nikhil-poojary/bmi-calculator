@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>BMI Calculator</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: #082344">
+    <div class="container bg-secondary text-white main">
+        <h1 class="display-4 pt-4">BMI Calculator</h1>
+        <p>Calculate your body mass index.</p>
+        <form class="pt-4">
+            <div class="form-group">
+                <label for="weight">Weight (in kg):</label>
+                <input type="text" class="form-control" id="weight" style="width: 250px">
+            </div>
+            <div class="form-group">
+                <label for="height">Height (in cm):</label>
+                <input type="text" class="form-control" id="height" style="width: 250px">
+            </div>
+        </form>
+        <div class="img" id="img"></div>
+        <div class="output pt-2" id="output" style="font-size: 62px"></div>
+        <div class="message" id="message" style="font-size: 19px"></div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
